@@ -1,5 +1,5 @@
 {
-    "name": "danbd/redirectlinks",
+    "name": "danbd/redirect",
     "type": "project",
     "homepage": "http://teste.danbd.me/redirect",
     "require": {
@@ -9,7 +9,7 @@
     "authors": [
         {
             "name": "DANBD",
-            "email": "dbd235@yahoo.com",
+            "email": "contato@danbd.me",
             "homepage": "https://danbd.me"
         }
     ],
