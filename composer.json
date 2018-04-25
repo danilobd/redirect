@@ -1,0 +1,21 @@
+{
+    "name": "danbd/redirectlinks",
+    "type": "project",
+    "homepage": "http://teste.danbd.me/redirect",
+    "require": {
+        "predis/predis": "^1.1",
+        "php": ">=5.3.9"
+    },
+    "authors": [
+        {
+            "name": "DANBD",
+            "email": "dbd235@yahoo.com",
+            "homepage": "https://danbd.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "App\\": "src/"
+        }
+    }
+}
