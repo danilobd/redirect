@@ -7,8 +7,8 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-l
 
-# Change 'redirect' to de folder of the project
-RewriteRule ^(.*)$ redirect/index.php?url=$1 [NC]
+# Change 'redirect/example' to de folder of the project
+RewriteRule ^(.*)$ redirect/example/index.php?url=$1 [NC]
 
 # If is on root folder
 # RewriteRule ^(.*)$ index.php?url=$1 [NC]
